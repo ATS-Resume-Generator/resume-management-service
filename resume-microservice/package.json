@@ -1,0 +1,25 @@
+{
+  "name": "resume-microservice",
+  "version": "1.0.0",
+  "description": "A Node.js microservice for managing resumes.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "joi": "^17.4.0",
+    "cors": "^2.8.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT"
+}
